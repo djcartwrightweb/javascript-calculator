@@ -43,12 +43,13 @@
 
 .blink-cursor {
     animation: blink-cursor .75s step-end infinite;
-    border-right: 2px solid rgb(246, 177, 50);
+    /*border-right: 2px solid rgb(246, 177, 50);*/
+    border-right: 2px solid black;
 }
 
 @keyframes blink-cursor {
     from, to { border-color: transparent }
-    50% { border-color: rgb(246, 177, 50); }
+    50% { border-color: black; }
 }
 
 
