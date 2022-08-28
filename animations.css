@@ -1,4 +1,4 @@
-@keyframes fadeInLeftFast {
+@keyframes fade-in-left-fast {
     0% {
         opacity: 0;
         transform: translateX(-5px);
@@ -9,12 +9,39 @@
     }
 }
 
-.fadeInLeftFast {
-    animation: 0.4s ease-in 0s 1 fadeInLeftFast;
-    animation-name: fadeInLeftFast;
+.fade-in-left-fast {
+    animation: 0.4s ease-in 0s 1 fade-in-left-fast;
 }
 
-button:hover {
-    background-color: black;
-    color: whitesmoke;
+@keyframes button-down {
+    0% {
+        transform: translate(0px, 0px);
+    }    
+    100% {
+        transform: translate(1.7px, 1.7px);
+    }
 }
+
+.button-down {
+    animation: 0.08s ease-in 0s 1 button-down;
+    animation-fill-mode: forwards;
+}
+
+@keyframes button-up {
+    0% {
+        transform: translate(1.7px, 1.7px);
+    }    
+    100% {
+        transform: translate(0px, 0px);
+    }
+}
+
+.button-up {
+    animation: 0.08s ease-in 0s 1 button-up;
+    animation-fill-mode: forwards;
+}
+
+
+
+
+
