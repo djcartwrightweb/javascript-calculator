@@ -6,16 +6,20 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>JavaScript Calculator</title>
 
-    <link rel="stylesheet" href="./styles.css">
+    <link rel="stylesheet" href="./styles.css" />
+    <link rel="stylesheet" href="./animations.css" />
+    
 </head>
 <body>
+
     <header>
         <h1>JavaScript Calculator</h1>
     </header>
+
     <main>
-        <div id="calculator">
+        <div id="calculator" class="fadeInLeftFast">
             <div id="screen1" class="screen"></div>
-            <div id="screen2" class="screen"></div>
+            <div id="screen2" class="screen">0</div>
             <button id="ab" class="other">Ab</button>
             <button id="clear" class="other">AC</button>
             <button id="sign" class="other">+/-</button>
@@ -36,8 +40,12 @@
             <button id="decimal" class="digit">.</button>
             <button id="calculate">=</button>
         </div>
-
     </main>
-    <footer><h2>DJ Cartwright, foundations assignment for The Odin Project</h2></footer>
+
+    <footer>
+        <h2>DJ Cartwright, foundations assignment for The Odin Project</h2>
+    </footer>
+
+    <script src="./scripts.js"></script>
 </body>
 </html>

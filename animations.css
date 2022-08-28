@@ -1,0 +1,20 @@
+@keyframes fadeInLeftFast {
+    0% {
+        opacity: 0;
+        transform: translateX(-5px);
+    }    
+    100%{
+        opacity: 1;
+        transform: translateX(0px);
+    }
+}
+
+.fadeInLeftFast {
+    animation: 0.4s ease-in 0s 1 fadeInLeftFast;
+    animation-name: fadeInLeftFast;
+}
+
+button:hover {
+    background-color: black;
+    color: whitesmoke;
+}
