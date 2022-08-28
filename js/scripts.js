@@ -42,10 +42,8 @@ sign.addEventListener('click', () => {
     } else {
         let newValue = currentValue.slice(2);
         value.textContent = newValue;
-        if (newValue = '0') {
+        if (newValue == '0') {
             clear.textContent = 'AC';
         }
     }
 });
-
-
